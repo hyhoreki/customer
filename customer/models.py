@@ -10,5 +10,5 @@ class Customer(models.Model):
 	job=models.TextField(default='未知')
 	money=models.IntegerField(default=0)
 	hobby=models.TextField(default='未知')
-	house=models.IntegerField(default='未知')
+	house=models.TextField(default='未知')
 	contact=models.TextField(default='尽快开始接触哦')
